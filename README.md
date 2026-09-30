@@ -1,6 +1,6 @@
-# Mi estación de automatización de redes
+Mi estación de automatización de redes
 
-## 1. Datos del equipo
+ 1. Datos del equipo
 
 Materia: Automatización de Infraestructura Digital I
 Grupo: 3IRI2V
