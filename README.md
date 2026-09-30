@@ -1,6 +1,5 @@
 Mi estación de automatización de redes
-
- 1. Datos del equipo
+1. Datos del equipo
 
 Materia: Automatización de Infraestructura Digital I
 Grupo: 3IRI2V
@@ -12,14 +11,14 @@ Integrantes:
 * Jesús Emilio Villlarreal Aleman
 
 
-## 2. Propósito de la práctica
+2. Propósito de la práctica
 
 El propósito de esta práctica fue preparar nuestra computadora para trabajar con automatización de redes.
 Para esto instalamos diferentes programas que vamos a utilizar durante las siguientes prácticas, como Python, VS Code, Git, GitHub, Docker y GNS3.
 También hicimos algunas pruebas para comprobar que los programas funcionaran antes de seguir con las demás prácticas.
 
 
-## 3. Herramientas instaladas
+3. Herramientas instaladas
 
 Durante la práctica instalamos:
 
@@ -37,7 +36,7 @@ Durante la práctica instalamos:
 También instalamos la extensión de Python en VS Code y creamos un entorno virtual.
 
 
-## 4. Configuración realizada
+4. Configuración realizada
 
 Primero instalamos Python y comprobamos desde la terminal que funcionara.
 Después instalamos VS Code y la extensión de Python. Creamos la carpeta "automatizacion-redes" y seleccionamos el intérprete de Python.
@@ -54,7 +53,7 @@ También instalamos Postman, OpenConnect y Docker.
 Por último instalamos GNS3, descargamos la GNS3 VM, instalamos VMware Workstation e importamos la máquina virtual. Después conectamos la GNS3 VM con GNS3.
 
 
-## 5. Verificación del entorno
+5. Verificación del entorno
 
 Al terminar revisamos que las herramientas funcionaran correctamente.
 
@@ -79,7 +78,7 @@ Al terminar revisamos que las herramientas funcionaran correctamente.
 
 También revisamos que la documentación y las evidencias estuvieran en el repositorio de GitHub.
 
-## 6. Estructura del proyecto
+6. Estructura del proyecto
 
 El proyecto quedó organizado de esta manera:
 
@@ -112,7 +111,7 @@ automatizacion-redes/
 El archivo "requirements.txt" por ahora está vacío porque todavía no usamos bibliotecas externas de Python.
 
 
-## 7. Problemas encontrados y soluciones
+7. Problemas encontrados y soluciones
 
 Durante la práctica tuvimos algunos problemas.
 
@@ -125,7 +124,7 @@ Con Git también tuvimos un pequeño problema porque se tuvo que agregar un `PAT
 Otro detalle fue que tuvimos que registrarnos en algunos programas y servicios, lo cual tomó un poco de tiempo, pero después pudimos continuar.
 
 
-## 8. Conclusiones
+8. Conclusiones
 
 En esta práctica instalamos varios programas que vamos a necesitar para trabajar en automatización de redes.
 Al principio tuvimos algunos problemas con VMware, GNS3 VM y Git, pero pudimos solucionarlos y continuar con la práctica.
