@@ -82,22 +82,42 @@ También revisamos que la documentación y las evidencias estuvieran en el repos
 
 El proyecto quedó organizado de esta manera:
 
+```text
 automatizacion-redes/
 │
 ├── README.md
 ├── requirements.txt
+│
 ├── src/
 │   └── hola_mundo.py
+│
 ├── tests/
 ├── data/
+│
 └── docs/
     └── practica-01/
         ├── evidencias/
+        │   ├── 01-python.png
+        │   ├── 02-vscode.png
+        │   ├── 03-python-vscode.png
+        │   ├── 04-entorno-virtual.png
+        │   ├── 05-hola-mundo.png
+        │   ├── 06-git.png
+        │   ├── 07-git-identidad.png
+        │   ├── 08-github.png
+        │   ├── 09-postman.png
+        │   ├── 10-openconnect.png
+        │   ├── 11-docker.png
+        │   ├── 12-gns3.png
+        │   ├── 13-gns3-vm.png
+        │   ├── 14-vmware.png
+        │   ├── 15-importacion-gns3-vm.png
+        │   └── 16-integracion-gns3.png
+        │
         ├── instalacion.md
         ├── configuracion.md
         └── verificacion.md
-
-
+```
 "README.md" tiene la información de la práctica.
 
 "src" es donde se van a guardar los programas.
@@ -130,5 +150,3 @@ En esta práctica instalamos varios programas que vamos a necesitar para trabaja
 Al principio tuvimos algunos problemas con VMware, GNS3 VM y Git, pero pudimos solucionarlos y continuar con la práctica.
 También aprendimos que los programas se van a usar juntos. Por ejemplo, usamos Python y VS Code para programar, Git y GitHub para guardar el proyecto,
 Docker para trabajar con contenedores y GNS3 con VMware para hacer las prácticas de redes.
-
-Con esta práctica dejamos lista la computadora y el repositorio para poder continuar con las siguientes actividades.
