@@ -117,6 +117,20 @@ automatizacion-redes/
         ├── instalacion.md
         ├── configuracion.md
         └── verificacion.md
+        │
+        └── practica-02/
+        │
+        ├── README.md
+        │
+        ├── topologia-01/
+        │   ├── topologia.png
+        │   ├── configuracion.md
+        │   └── evidencias/
+        │
+        └── topologia-02/
+            ├── topologia.png
+            ├── configuracion.md
+            └── evidencias/
 ```
 "README.md" tiene la información de la práctica.
 
