@@ -150,3 +150,37 @@ En esta práctica instalamos varios programas que vamos a necesitar para trabaja
 Al principio tuvimos algunos problemas con VMware, GNS3 VM y Git, pero pudimos solucionarlos y continuar con la práctica.
 También aprendimos que los programas se van a usar juntos. Por ejemplo, usamos Python y VS Code para programar, Git y GitHub para guardar el proyecto,
 Docker para trabajar con contenedores y GNS3 con VMware para hacer las prácticas de redes.
+
+9. Avance del proyecto integrador
+
+### Práctica 1
+
+Preparación de la estación de automatización de redes.
+
+Estado: Completada.
+
+Durante esta práctica preparamos las herramientas necesarias para comenzar a trabajar con automatización de redes, como Python, VS Code, Git, GitHub, Docker, GNS3, GNS3 VM y VMware Workstation.
+
+### Práctica 2
+
+Construcción de la red simulada en GNS3.
+
+Estado: Completada.
+
+Durante esta práctica construimos y configuramos dos topologías de red en GNS3.
+
+Infraestructura construida:
+
+* Topología básica PC-Switch-PC.
+* Topología con dos routers Cisco IOSv y un switch multicapa Cisco IOSvL2.
+* Configuración de direccionamiento IP.
+* Pruebas de conectividad mediante ping.
+* Configuración de interfaces Loopback.
+* Configuración del protocolo OSPF.
+* Verificación de vecinos OSPF.
+* Verificación de la tabla de enrutamiento.
+
+La primera topología permitió comprobar la comunicación entre dos computadoras conectadas mediante un switch.
+
+La segunda topología permitió trabajar con routers y un switch multicapa, configurar sus interfaces y utilizar OSPF para intercambiar información de enrutamiento.
+
