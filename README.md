@@ -197,4 +197,3 @@ Infraestructura construida:
 La primera topología permitió comprobar la comunicación entre dos computadoras conectadas mediante un switch.
 
 La segunda topología permitió trabajar con routers y un switch multicapa, configurar sus interfaces y utilizar OSPF para intercambiar información de enrutamiento.
-
