@@ -89,48 +89,53 @@ automatizacion-redes/
 ├── requirements.txt
 │
 ├── src/
-│   └── hola_mundo.py
+│   ├── hola_mundo.py
+│   └── dispositivos.py
 │
 ├── tests/
 ├── data/
 │
 └── docs/
-    └── practica-01/
-        ├── evidencias/
-        │   ├── 01-python.png
-        │   ├── 02-vscode.png
-        │   ├── 03-python-vscode.png
-        │   ├── 04-entorno-virtual.png
-        │   ├── 05-hola-mundo.png
-        │   ├── 06-git.png
-        │   ├── 07-git-identidad.png
-        │   ├── 08-github.png
-        │   ├── 09-postman.png
-        │   ├── 10-openconnect.png
-        │   ├── 11-docker.png
-        │   ├── 12-gns3.png
-        │   ├── 13-gns3-vm.png
-        │   ├── 14-vmware.png
-        │   ├── 15-importacion-gns3-vm.png
-        │   └── 16-integracion-gns3.png
-        │
-        ├── instalacion.md
-        ├── configuracion.md
-        └── verificacion.md
-        │
-        └── practica-02/
-        │
+    │
+    ├── practica-01/
+    │   ├── evidencias/
+    │   │   ├── 01-python.png
+    │   │   ├── 02-vscode.png
+    │   │   ├── 03-python-vscode.png
+    │   │   ├── 04-entorno-virtual.png
+    │   │   ├── 05-hola-mundo.png
+    │   │   ├── 06-git.png
+    │   │   ├── 07-git-identidad.png
+    │   │   ├── 08-github.png
+    │   │   ├── 09-postman.png
+    │   │   ├── 10-openconnect.png
+    │   │   ├── 11-docker.png
+    │   │   ├── 12-gns3.png
+    │   │   ├── 13-gns3-vm.png
+    │   │   ├── 14-vmware.png
+    │   │   ├── 15-importacion-gns3-vm.png
+    │   │   └── 16-integracion-gns3.png
+    │   │
+    │   ├── instalacion.md
+    │   ├── configuracion.md
+    │   └── verificacion.md
+    │
+    ├── practica-02/
+    │   ├── README.md
+    │   │
+    │   ├── topologia-01/
+    │   │   ├── topologia.png
+    │   │   ├── configuracion.md
+    │   │   └── evidencias/
+    │   │
+    │   └── topologia-02/
+    │       ├── topologia.png
+    │       ├── configuracion.md
+    │       └── evidencias/
+    │
+    └── practica-03/
         ├── README.md
-        │
-        ├── topologia-01/
-        │   ├── topologia.png
-        │   ├── configuracion.md
-        │   └── evidencias/
-        │
-        └── topologia-02/
-            ├── topologia.png
-            ├── configuracion.md
-            └── evidencias/
+        └── evidencias/
 ```
 "README.md" tiene la información de la práctica.
 
@@ -219,7 +224,7 @@ También realizamos pruebas modificando temporalmente la información de los dis
 
 **Próximo paso:** continuar con el desarrollo de programas que permitan consultar y automatizar información de los dispositivos de red.
 
-10.Preguntas de análisi
+10.Preguntas de análisis
 1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
 Porque nos permite tener organizada la información de nuestra red en un solo lugar, consultar los datos de cada dispositivo y realizar cambios sin tener que revisar todo manualmente.
 2. ¿Qué ventaja ofrece utilizar un diccionario para representar un dispositivo?
