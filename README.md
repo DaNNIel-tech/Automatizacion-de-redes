@@ -218,3 +218,26 @@ También realizamos pruebas modificando temporalmente la información de los dis
 **Código fuente:** [dispositivos.py](src/dispositivos.py)
 
 **Próximo paso:** continuar con el desarrollo de programas que permitan consultar y automatizar información de los dispositivos de red.
+
+10.Preguntas de análisi
+1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
+Porque nos permite tener organizada la información de nuestra red en un solo lugar, consultar los datos de cada dispositivo y realizar cambios sin tener que revisar todo manualmente.
+2. ¿Qué ventaja ofrece utilizar un diccionario para representar un dispositivo?
+Nos permite guardar diferentes datos de un mismo dispositivo, como su nombre, dirección IP y estado, utilizando claves para identificarlos fácilmente.
+3. ¿Qué ventaja ofrece utilizar una lista para representar varios dispositivos?
+Nos facilita agrupar varios dispositivos y trabajar con todos ellos sin necesidad de crear instrucciones diferentes para cada uno.
+4. ¿Qué tarea permite realizar el ciclo for?
+Permite recorrer automáticamente nuestra lista de dispositivos y mostrar la información de cada uno sin repetir el mismo código varias veces.
+5. ¿Para qué se utilizó la estructura if?
+La utilizamos para comprobar el estado de nuestros dispositivos e identificar si estaban activos o fuera de servicio.
+6. ¿Qué ventaja tiene utilizar una función?
+Nos ayuda a organizar mejor el programa y reutilizar instrucciones. En nuestra práctica creamos una función para mostrar los datos de cualquier dispositivo.
+7. ¿Qué información de los dispositivos podría obtener automáticamente un programa en una etapa posterior?
+Podría consultar las direcciones IP, las interfaces de red, sus estados, las configuraciones y los protocolos que utilizan los dispositivos.
+8. ¿Qué diferencia existe entre representar información de un dispositivo y obtener esa información directamente desde el dispositivo?
+Representar información consiste en escribir y almacenar los datos dentro del programa, mientras que obtenerlos directamente significa conectarse al dispositivo y consultar su información real.
+9. ¿Cómo podría evolucionar este programa para convertirse en una herramienta de automatización de redes?
+Podríamos mejorarlo para conectarse a los dispositivos, consultar sus configuraciones, detectar cambios y ejecutar tareas automáticamente sin tener que hacerlo dispositivo por dispositivo.
+10. ¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
+En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra infraestructura en las siguientes prácticas.
+
