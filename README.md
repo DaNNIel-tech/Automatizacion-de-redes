@@ -197,3 +197,24 @@ Infraestructura construida:
 La primera topología permitió comprobar la comunicación entre dos computadoras conectadas mediante un switch.
 
 La segunda topología permitió trabajar con routers y un switch multicapa, configurar sus interfaces y utilizar OSPF para intercambiar información de enrutamiento.
+
+### Práctica 3: Representación de dispositivos de red con Python
+
+Estado: Completada.
+
+En esta práctica desarrollamos nuestro primer programa en Python para representar la información de los dispositivos que configuramos anteriormente en GNS3.
+
+Utilizamos diccionarios, listas, ciclos, condiciones y funciones para organizar y mostrar los datos de dos routers y un switch Cisco.
+
+También realizamos pruebas modificando temporalmente la información de los dispositivos e incorporamos una función de búsqueda que permite localizar un dispositivo mediante su nombre.
+
+**Dispositivos utilizados:**
+- R1 - Router Cisco IOSv - 10.1.1.1
+- R2 - Router Cisco IOSv - 10.1.1.2
+- S1 - Switch Cisco IOSvL2 - 10.1.1.3
+
+**Documentación:** [Práctica 03](docs/practica-03/README.md)
+
+**Código fuente:** [dispositivos.py](src/dispositivos.py)
+
+**Próximo paso:** continuar con el desarrollo de programas que permitan consultar y automatizar información de los dispositivos de red.
