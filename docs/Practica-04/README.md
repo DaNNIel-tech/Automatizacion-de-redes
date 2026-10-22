@@ -41,7 +41,7 @@ Porque una solución puede estar diseñada para otra versión del programa, sist
 
 ### 3.Analisis de un problema técnico hipotético
 
-1. situacion
+1. Situacion del problema
 
 El programa dispositivos.py, desarrollado en la Práctica 3, muestra correctamente la información de R1 y R2, pero al intentar buscar un dispositivo por su nombre, el programa no identifica el equipo solicitado.
 
