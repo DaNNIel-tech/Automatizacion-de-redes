@@ -1,4 +1,4 @@
-1. Preguntas de investigación
+### 1. Preguntas de investigación
 1. ¿Qué tipo de problema podrías resolver consultando la documentación de GNS3?
 
 Podría resolver problemas relacionados con la creación de topologías, configuración de dispositivos, conexiones entre routers y errores al iniciar o utilizar equipos virtuales.
@@ -19,8 +19,8 @@ Porque no todas las bibliotecas funcionan con los mismos dispositivos o sistemas
 
 Podrían utilizarse para solucionar errores en GNS3, mejorar los programas de Python y aprender a automatizar tareas de configuración y consulta de información de los dispositivos de red.
 
-2. Recursos de investigación
-### Documentación oficial de GNS3
+### 2. Recursos de investigación
+## Documentación oficial de GNS3
 
 https://docs.gns3.com/
 
@@ -40,7 +40,7 @@ Ejemplo de una situación
 
 Cuando los routers R1 y R2 no logren comunicarse dentro de GNS3 y necesitemos revisar su configuración o conexiones
 
-### Repositorio de Netmiko
+## Repositorio de Netmiko
 
 https://github.com/ktbyers/netmiko
 
@@ -60,7 +60,7 @@ Ejemplo de una situación
 
 Cuando necesitemos desarrollar un programa en Python que se conecte mediante SSH a un router compatible para consultar su configuración.
 
-### Solución de problemas de GNS3
+## Solución de problemas de GNS3
 
 https://docs.gns3.com/docs/troubleshooting-faq/troubleshoot-gns3
 
