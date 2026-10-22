@@ -18,14 +18,26 @@ La documentación oficial proporciona información mantenida por el proyecto y r
 2. Recursos de investigacion
 ### Documentación oficial de phyton
 https://docs.python.org/es/3/?utm_source=chatgpt.com
+
 Contiene información sobre sintaxis, funciones, estructuras de datos y bibliotecas.
 
 Utilidad
 consultar el manejo de diccionarios y listas para representar dispositivos de red.
 
+Ejemplo
+
+La consultaría cuando tenga dudas sobre cómo utilizar ciclos for o funciones para recorrer y mostrar la información de los dispositivos de red R1 y R2.
+
 ### Estructuras de datos de Python
 https://docs.python.org/es/3/tutorial/datastructures.html?utm_source=chatgpt.com
+
 Explica listas, diccionarios, conjuntos y sus operaciones.
 
 Utilidad
+
 investigar cómo buscar dispositivos por nombre dentro de una colección
+
+Ejemplo
+
+La consultaría cuando necesite buscar un dispositivo por su nombre dentro de una lista de diccionarios y mostrar su dirección IP y demás información.
+
