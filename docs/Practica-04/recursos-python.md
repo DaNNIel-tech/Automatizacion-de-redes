@@ -17,7 +17,7 @@ La documentación oficial proporciona información mantenida por el proyecto y r
 
 2. Recursos de investigacion
 ### Documentación oficial de phyton
-https://docs.python.org/es/3/?utm_source=chatgpt.com
+https://docs.python.org/es/3/
 
 Contiene información sobre sintaxis, funciones, estructuras de datos y bibliotecas.
 
@@ -29,7 +29,7 @@ Ejemplo
 La consultaría cuando tenga dudas sobre cómo utilizar ciclos for o funciones para recorrer y mostrar la información de los dispositivos de red R1 y R2.
 
 ### Estructuras de datos de Python
-https://docs.python.org/es/3/tutorial/datastructures.html?utm_source=chatgpt.com
+https://docs.python.org/es/3/tutorial/datastructures.html
 
 Explica listas, diccionarios, conjuntos y sus operaciones.
 
