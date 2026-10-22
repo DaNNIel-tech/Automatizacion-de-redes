@@ -38,3 +38,41 @@ Porque una solución puede estar diseñada para otra versión del programa, sist
 3. **Repositorio de Netmiko**
    https://github.com/ktbyers/netmiko
    - Biblioteca de Python para automatizar la administración de dispositivos de red.
+
+### 3.Analisis de un problema técnico hipotético
+
+1. situacion
+
+El programa dispositivos.py, desarrollado en la Práctica 3, muestra correctamente la información de R1 y R2, pero al intentar buscar un dispositivo por su nombre, el programa no identifica el equipo solicitado.
+
+2. Tabla de estrategia
+
+## Estrategia de solución de un problema técnico
+
+| Elemento | Respuesta del equipo |
+|---|---|
+| Problema identificado | El programa dispositivos.py muestra correctamente los datos de R1 y R2, pero no encuentra un dispositivo cuando se busca por su nombre. |
+| Palabras clave para realizar la búsqueda | Python buscar elementos en lista de diccionarios, comparar cadenas en Python, método lower(), búsqueda de dispositivos por nombre. |
+| Documentación o comunidad que consultarían primero | La documentación oficial de Python, especialmente los apartados relacionados con listas, diccionarios y comparación de cadenas. |
+| Información que revisarían en el código | La estructura de los datos, los nombres registrados, el ciclo utilizado para buscar y las condiciones que comparan los nombres de los dispositivos. |
+| Tipo de ejemplo o solución que buscarían | Ejemplos de cómo recorrer listas de diccionarios y comparar nombres utilizando condicionales y el método lower(). |
+| Cómo comprobarían que la solución funciona | Realizando búsquedas de R1 y R2, probando nombres con mayúsculas y minúsculas, y verificando que el programa muestre la información correcta. |
+| Cómo documentarían la solución encontrada | Registrando el problema, las causas identificadas, los recursos consultados, la solución propuesta y los resultados de las pruebas en GitHub. |
+
+3. Ejemplo de una posible solución
+
+dispositivos = [
+    {"nombre": "R1", "ip": "192.168.1.1"},
+    {"nombre": "R2", "ip": "192.168.1.2"}
+]
+
+nombre_buscar = input("Ingrese el nombre del dispositivo: ")
+
+for dispositivo in dispositivos:
+    if dispositivo["nombre"].lower() == nombre_buscar.lower():
+        print("Dispositivo encontrado:", dispositivo)
+        break
+else:
+    print("Dispositivo no encontrado")
+
+El programa recorre los dispositivos y compara sus nombres utilizando lower(), que convierte el texto a minúsculas. Esto permite encontrar un dispositivo aunque el usuario escriba r1, R1 o R2. Las direcciones IP son ilustrativas.
