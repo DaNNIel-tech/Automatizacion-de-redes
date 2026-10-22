@@ -1,4 +1,4 @@
-1. Tabla de comunidades de colaboración
+### 1. Tabla de comunidades de colaboración
 ## Comunidades de colaboración
 
 | Recurso o comunidad | Tipo de recurso | ¿Qué tipo de problemas ayuda a resolver? | ¿Cómo podría utilizarlo el equipo? |
@@ -7,7 +7,7 @@
 | GitHub | Plataforma de desarrollo y colaboración de software. | Problemas relacionados con código, versiones, bibliotecas y seguimiento de errores. | Compartir archivos del proyecto, documentar avances y consultar ejemplos de otros desarrolladores. |
 | Comunidad de GNS3 | Foro especializado en simulación y redes. | Problemas de instalación, configuración de dispositivos, topologías y conexiones de red. | Buscar soluciones cuando los routers o switches de nuestra topología presenten errores. |
 
-2. Preguntas de investigación
+### 2. Preguntas de investigación
 1. ¿Qué ventajas ofrece una comunidad de colaboración frente a buscar información sin un objetivo definido?
 
 Permite encontrar respuestas relacionadas con problemas específicos, aprovechar la experiencia de otros usuarios y ahorrar tiempo al buscar soluciones.
@@ -28,7 +28,7 @@ Porque ayuda a comprender mejor el problema, evita que se sugieran soluciones qu
 
 Debe mantener una actitud respetuosa, explicar sus dudas con claridad, agradecer la ayuda recibida, reconocer las aportaciones de otras personas y comprobar las soluciones antes de utilizarlas.
 
-3.Enlaces de las comunidades consultadas
+### 3.Enlaces de las comunidades consultadas
 
 Stack Overflow en español
 
