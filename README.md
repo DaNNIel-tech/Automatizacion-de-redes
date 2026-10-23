@@ -1,5 +1,5 @@
-Mi estación de automatización de redes
-1. Datos del equipo
+## Mi estación de automatización de redes
+### 1. Datos del equipo
 
 Materia: Automatización de Infraestructura Digital I
 Grupo: 3IRI2V
@@ -11,14 +11,14 @@ Integrantes:
 * Jesús Emilio Villlarreal Aleman
 
 
-2. Propósito de la práctica
+### 2. Propósito de la práctica
 
 El propósito de esta práctica fue preparar nuestra computadora para trabajar con automatización de redes.
 Para esto instalamos diferentes programas que vamos a utilizar durante las siguientes prácticas, como Python, VS Code, Git, GitHub, Docker y GNS3.
 También hicimos algunas pruebas para comprobar que los programas funcionaran antes de seguir con las demás prácticas.
 
 
-3. Herramientas instaladas
+### 3. Herramientas instaladas
 
 Durante la práctica instalamos:
 
@@ -36,7 +36,7 @@ Durante la práctica instalamos:
 También instalamos la extensión de Python en VS Code y creamos un entorno virtual.
 
 
-4. Configuración realizada
+### 4. Configuración realizada
 
 Primero instalamos Python y comprobamos desde la terminal que funcionara.
 Después instalamos VS Code y la extensión de Python. Creamos la carpeta "automatizacion-redes" y seleccionamos el intérprete de Python.
@@ -53,7 +53,7 @@ También instalamos Postman, OpenConnect y Docker.
 Por último instalamos GNS3, descargamos la GNS3 VM, instalamos VMware Workstation e importamos la máquina virtual. Después conectamos la GNS3 VM con GNS3.
 
 
-5. Verificación del entorno
+### 5. Verificación del entorno
 
 Al terminar revisamos que las herramientas funcionaran correctamente.
 
@@ -78,7 +78,7 @@ Al terminar revisamos que las herramientas funcionaran correctamente.
 
 También revisamos que la documentación y las evidencias estuvieran en el repositorio de GitHub.
 
-6. Estructura del proyecto
+### 6. Estructura del proyecto
 
 El proyecto quedó organizado de esta manera:
 
@@ -150,7 +150,7 @@ automatizacion-redes/
 El archivo "requirements.txt" por ahora está vacío porque todavía no usamos bibliotecas externas de Python.
 
 
-7. Problemas encontrados y soluciones
+### 7. Problemas encontrados y soluciones
 
 Durante la práctica tuvimos algunos problemas.
 
@@ -163,16 +163,16 @@ Con Git también tuvimos un pequeño problema porque se tuvo que agregar un `PAT
 Otro detalle fue que tuvimos que registrarnos en algunos programas y servicios, lo cual tomó un poco de tiempo, pero después pudimos continuar.
 
 
-8. Conclusiones
+### 8. Conclusiones
 
 En esta práctica instalamos varios programas que vamos a necesitar para trabajar en automatización de redes.
 Al principio tuvimos algunos problemas con VMware, GNS3 VM y Git, pero pudimos solucionarlos y continuar con la práctica.
 También aprendimos que los programas se van a usar juntos. Por ejemplo, usamos Python y VS Code para programar, Git y GitHub para guardar el proyecto,
 Docker para trabajar con contenedores y GNS3 con VMware para hacer las prácticas de redes.
 
-9. Avance del proyecto integrador
+### 9. Avance del proyecto integrador
 
-### Práctica 1
+*** Práctica 1 ***
 
 Preparación de la estación de automatización de redes.
 
@@ -180,7 +180,7 @@ Estado: Completada.
 
 Durante esta práctica preparamos las herramientas necesarias para comenzar a trabajar con automatización de redes, como Python, VS Code, Git, GitHub, Docker, GNS3, GNS3 VM y VMware Workstation.
 
-### Práctica 2
+*** Práctica 2 ***
 
 Construcción de la red simulada en GNS3.
 
@@ -203,7 +203,7 @@ La primera topología permitió comprobar la comunicación entre dos computadora
 
 La segunda topología permitió trabajar con routers y un switch multicapa, configurar sus interfaces y utilizar OSPF para intercambiar información de enrutamiento.
 
-### Práctica 3: Representación de dispositivos de red con Python
+*** Práctica 3: Representación de dispositivos de red con Python ***
 
 Estado: Completada.
 
@@ -223,6 +223,25 @@ También realizamos pruebas modificando temporalmente la información de los dis
 **Código fuente:** [dispositivos.py](src/dispositivos.py)
 
 **Próximo paso:** continuar con el desarrollo de programas que permitan consultar y automatizar información de los dispositivos de red.
+
+ *** Práctica 4: Exploración de comunidades, documentación y recursos de colaboración. **
+
+Estado: Completada.
+
+En esta práctica investigamos recursos técnicos
+relacionados con Python, GNS3 y Netmiko.
+
+También analizamos comunidades de colaboración
+como Stack Overflow, GitHub y GNS3, identificando
+su utilidad para resolver problemas técnicos.
+
+Organizamos la información en una base de
+conocimiento que servirá como apoyo durante
+las siguientes prácticas del proyecto integrador.
+
+Próximo paso:
+Aplicar los recursos investigados para continuar
+desarrollando programas de automatización de redes.
 
 10.Preguntas de análisis
 1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
@@ -244,5 +263,8 @@ Representar información consiste en escribir y almacenar los datos dentro del p
 9. ¿Cómo podría evolucionar este programa para convertirse en una herramienta de automatización de redes?
 Podríamos mejorarlo para conectarse a los dispositivos, consultar sus configuraciones, detectar cambios y ejecutar tareas automáticamente sin tener que hacerlo dispositivo por dispositivo.
 10. ¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
-En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra infraestructura en las siguientes prácticas.
+En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra
+
+
+infraestructura en las siguientes prácticas.
 
