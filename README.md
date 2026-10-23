@@ -278,11 +278,3 @@ Representar información consiste en escribir y almacenar los datos dentro del p
 Podríamos mejorarlo para conectarse a los dispositivos, consultar sus configuraciones, detectar cambios y ejecutar tareas automáticamente sin tener que hacerlo dispositivo por dispositivo.
 10. ¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
 En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra infraestructura en las siguientes prácticas.
-
-### 11. Conclusiones
-
-##Diego Gael Guzman Flores
-
-Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
-
-##
