@@ -128,8 +128,7 @@ la información antes de utilizarla y de
 documentar los conocimientos adquiridos
 en GitHub para facilitar el trabajo en equipo.
 
-### 7. Conclusiones
-## Conclusiones individuales
+### 7. Conclusiones individuales
 
 ## Diego Gael Guzman Flores
 Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
