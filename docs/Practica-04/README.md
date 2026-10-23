@@ -131,13 +131,35 @@ en GitHub para facilitar el trabajo en equipo.
 ### 7. Conclusiones individuales
 
 ## Diego Gael Guzman Flores
-Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
+Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. 
+Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, 
+mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. 
+
+También aprendí que es importante revisar si la información está actualizada antes de utilizarla. 
+Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. 
+Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. 
+Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
 
 ## Carlos Uribe Herebia
-Esta práctica me permitió conocer diferentes recursos que facilitan el aprendizaje y la solución de problemas técnicos. Aprendí que la documentación oficial es una fuente de referencia para entender cómo funciona un programa, mientras que los foros ofrecen respuestas basadas en situaciones reales. También comprendí que no debemos confiar en cualquier información de Internet sin revisar su origen y comprobar que funcione. Las comunidades de Python y GNS3 pueden ayudarnos a encontrar soluciones cuando tengamos dificultades. Por otra parte, GitHub es una herramienta importante para compartir información y registrar los avances del proyecto. Lo aprendido me ayudará a investigar mejor y trabajar de manera más organizada en futuras actividades.
+Esta práctica me permitió conocer diferentes recursos que facilitan el aprendizaje y la solución de problemas técnicos. 
+Aprendí que la documentación oficial es una fuente de referencia para entender cómo funciona un programa, mientras que los foros ofrecen respuestas basadas en situaciones reales. 
+También comprendí que no debemos confiar en cualquier información de Internet sin revisar su origen y comprobar que funcione. 
+
+Las comunidades de Python y GNS3 pueden ayudarnos a encontrar soluciones cuando tengamos dificultades.
+Por otra parte, GitHub es una herramienta importante para compartir información y registrar los avances del proyecto. 
+Lo aprendido me ayudará a investigar mejor y trabajar de manera más organizada en futuras actividades.
 
 ## Carlos Daniel Guillen Rios
-Al realizar esta práctica comprendí que saber buscar información es tan importante como saber programar. Muchas veces podemos encontrar errores que no sabemos resolver, pero existen recursos como la documentación de Python, GNS3 y Netmiko que pueden orientarnos. También aprendí que las respuestas de una comunidad pueden ser útiles, aunque es necesario comprobar que sean compatibles con nuestras herramientas. Considero importante revisar los ejemplos y las versiones utilizadas antes de aplicar una solución. Además, guardar los resultados de nuestras investigaciones en GitHub facilita que todos los integrantes del equipo puedan consultarlos. En las siguientes prácticas utilizaré estos recursos para resolver dudas y mejorar el desarrollo de nuestros programas.
+Al realizar esta práctica comprendí que saber buscar información es tan importante como saber programar.
+Muchas veces podemos encontrar errores que no sabemos resolver, pero existen recursos como la documentación de Python, GNS3 y Netmiko que pueden orientarnos. 
+También aprendí que las respuestas de una comunidad pueden ser útiles, aunque es necesario comprobar que sean compatibles con nuestras herramientas.
+
+Considero importante revisar los ejemplos y las versiones utilizadas antes de aplicar una solución. Además, guardar los resultados de nuestras investigaciones en GitHub facilita que todos los integrantes del equipo puedan consultarlos. En las siguientes prácticas utilizaré estos recursos para resolver dudas y mejorar el desarrollo de nuestros programas.
 
 ## Jesus Emilio Villareal
-Con esta práctica aprendí a identificar recursos que pueden ayudarnos durante el desarrollo del proyecto de automatización de redes. Me di cuenta de que la documentación oficial es útil para consultar instrucciones y características de las herramientas, mientras que las comunidades permiten encontrar recomendaciones de personas que han tenido problemas similares. También entendí que una solución encontrada en Internet no siempre funcionará en nuestro proyecto, por lo que debemos verificar su confiabilidad y realizar pruebas. Aprendí que documentar nuestros avances y soluciones en GitHub ayuda a mantener un mejor control del trabajo realizado. Estos conocimientos me servirán para investigar problemas de Python y GNS3 con mayor facilidad y continuar mejorando el proyecto integrador.
+Con esta práctica aprendí a identificar recursos que pueden ayudarnos durante el desarrollo del proyecto de automatización de redes. 
+Me di cuenta de que la documentación oficial es útil para consultar instrucciones y características de las herramientas, mientras que las comunidades permiten encontrar recomendaciones de personas que han tenido problemas similares.
+
+También entendí que una solución encontrada en Internet no siempre funcionará en nuestro proyecto, por lo que debemos verificar su confiabilidad y realizar pruebas.
+Aprendí que documentar nuestros avances y soluciones en GitHub ayuda a mantener un mejor control del trabajo realizado. 
+Estos conocimientos me servirán para investigar problemas de Python y GNS3 con mayor facilidad y continuar mejorando el proyecto integrador.
