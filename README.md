@@ -245,7 +245,7 @@ desarrollando programas de automatización de redes.
 
 Documentación: 
 
-Práctica 04](docs/practica-04/README.md)
+[Práctica 04](docs/practica-04/README.md)
 
 ### 10.Preguntas de análisis
 1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
