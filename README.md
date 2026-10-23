@@ -243,6 +243,10 @@ Próximo paso:
 Aplicar los recursos investigados para continuar
 desarrollando programas de automatización de redes.
 
+Documentación: 
+
+Práctica 04](docs/practica-04/README.md)
+
 ### 10.Preguntas de análisis
 1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
 Porque nos permite tener organizada la información de nuestra red en un solo lugar, consultar los datos de cada dispositivo y realizar cambios sin tener que revisar todo manualmente.
