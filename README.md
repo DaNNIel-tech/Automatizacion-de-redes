@@ -162,6 +162,20 @@ Con Git también tuvimos un pequeño problema porque se tuvo que agregar un `PAT
 
 Otro detalle fue que tuvimos que registrarnos en algunos programas y servicios, lo cual tomó un poco de tiempo, pero después pudimos continuar.
 
+### 7. Conclusiones
+## Conclusiones individuales
+
+## Diego Gael Guzman Flores
+Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
+
+## Carlos Uribe Herebia
+Esta práctica me permitió conocer diferentes recursos que facilitan el aprendizaje y la solución de problemas técnicos. Aprendí que la documentación oficial es una fuente de referencia para entender cómo funciona un programa, mientras que los foros ofrecen respuestas basadas en situaciones reales. También comprendí que no debemos confiar en cualquier información de Internet sin revisar su origen y comprobar que funcione. Las comunidades de Python y GNS3 pueden ayudarnos a encontrar soluciones cuando tengamos dificultades. Por otra parte, GitHub es una herramienta importante para compartir información y registrar los avances del proyecto. Lo aprendido me ayudará a investigar mejor y trabajar de manera más organizada en futuras actividades.
+
+## Carlos Daniel Guillen Rios
+Al realizar esta práctica comprendí que saber buscar información es tan importante como saber programar. Muchas veces podemos encontrar errores que no sabemos resolver, pero existen recursos como la documentación de Python, GNS3 y Netmiko que pueden orientarnos. También aprendí que las respuestas de una comunidad pueden ser útiles, aunque es necesario comprobar que sean compatibles con nuestras herramientas. Considero importante revisar los ejemplos y las versiones utilizadas antes de aplicar una solución. Además, guardar los resultados de nuestras investigaciones en GitHub facilita que todos los integrantes del equipo puedan consultarlos. En las siguientes prácticas utilizaré estos recursos para resolver dudas y mejorar el desarrollo de nuestros programas.
+
+## Jesus Emilio Villareal
+Con esta práctica aprendí a identificar recursos que pueden ayudarnos durante el desarrollo del proyecto de automatización de redes. Me di cuenta de que la documentación oficial es útil para consultar instrucciones y características de las herramientas, mientras que las comunidades permiten encontrar recomendaciones de personas que han tenido problemas similares. También entendí que una solución encontrada en Internet no siempre funcionará en nuestro proyecto, por lo que debemos verificar su confiabilidad y realizar pruebas. Aprendí que documentar nuestros avances y soluciones en GitHub ayuda a mantener un mejor control del trabajo realizado. Estos conocimientos me servirán para investigar problemas de Python y GNS3 con mayor facilidad y continuar mejorando el proyecto integrador.
 
 ### 8. Conclusiones
 
@@ -172,7 +186,7 @@ Docker para trabajar con contenedores y GNS3 con VMware para hacer las práctica
 
 ### 9. Avance del proyecto integrador
 
-*** Práctica 1 ***
+## Práctica 1 
 
 Preparación de la estación de automatización de redes.
 
@@ -180,7 +194,7 @@ Estado: Completada.
 
 Durante esta práctica preparamos las herramientas necesarias para comenzar a trabajar con automatización de redes, como Python, VS Code, Git, GitHub, Docker, GNS3, GNS3 VM y VMware Workstation.
 
-*** Práctica 2 ***
+## Práctica 2
 
 Construcción de la red simulada en GNS3.
 
@@ -203,7 +217,7 @@ La primera topología permitió comprobar la comunicación entre dos computadora
 
 La segunda topología permitió trabajar con routers y un switch multicapa, configurar sus interfaces y utilizar OSPF para intercambiar información de enrutamiento.
 
-*** Práctica 3: Representación de dispositivos de red con Python ***
+ ## Práctica 3: Representación de dispositivos de red con Python
 
 Estado: Completada.
 
@@ -224,7 +238,7 @@ También realizamos pruebas modificando temporalmente la información de los dis
 
 **Próximo paso:** continuar con el desarrollo de programas que permitan consultar y automatizar información de los dispositivos de red.
 
- *** Práctica 4: Exploración de comunidades, documentación y recursos de colaboración. **
+ ## Práctica 4: Exploración de comunidades, documentación y recursos de colaboración.
 
 Estado: Completada.
 
@@ -243,7 +257,7 @@ Próximo paso:
 Aplicar los recursos investigados para continuar
 desarrollando programas de automatización de redes.
 
-10.Preguntas de análisis
+### 10.Preguntas de análisis
 1. ¿Por qué es útil representar la información de los dispositivos mediante un programa?
 Porque nos permite tener organizada la información de nuestra red en un solo lugar, consultar los datos de cada dispositivo y realizar cambios sin tener que revisar todo manualmente.
 2. ¿Qué ventaja ofrece utilizar un diccionario para representar un dispositivo?
@@ -263,8 +277,12 @@ Representar información consiste en escribir y almacenar los datos dentro del p
 9. ¿Cómo podría evolucionar este programa para convertirse en una herramienta de automatización de redes?
 Podríamos mejorarlo para conectarse a los dispositivos, consultar sus configuraciones, detectar cambios y ejecutar tareas automáticamente sin tener que hacerlo dispositivo por dispositivo.
 10. ¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
-En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra
+En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra infraestructura en las siguientes prácticas.
 
+### 11. Conclusiones
 
-infraestructura en las siguientes prácticas.
+##Diego Gael Guzman Flores
 
+Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
+
+##
