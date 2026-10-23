@@ -1,6 +1,95 @@
-### 1. Tabla comparativa de confiabilidad
+# Práctica 4: Exploración de comunidades, documentación
+y recursos de colaboración
 
-## Evaluación de confiabilidad de los recursos
+## 1. Propósito de la práctica
+
+El propósito de esta práctica es conocer diferentes
+fuentes de información y comunidades de colaboración
+que permitan resolver problemas relacionados con
+Python, GNS3 y la automatización de redes.
+
+También se busca aprender a identificar recursos
+confiables y organizar la información investigada
+para utilizarla durante el desarrollo del proyecto.
+
+## 2. Relación con el proyecto integrador
+
+Esta práctica se relaciona con nuestro proyecto
+de automatización de redes, ya que nos permite
+identificar recursos técnicos que pueden ayudarnos
+a resolver errores durante la programación en Python
+y la configuración de dispositivos en GNS3.
+
+Los conocimientos adquiridos servirán para mejorar
+los programas desarrollados y facilitar la solución
+de problemas en las siguientes prácticas.
+
+## 3. Recursos consultados
+
+### Documentación oficial de Python
+
+https://docs.python.org/es/3/
+
+Permite consultar información sobre sintaxis,
+funciones, estructuras de datos y bibliotecas
+del lenguaje Python.
+
+### Estructuras de datos de Python
+
+https://docs.python.org/es/3/tutorial/datastructures.html
+
+Explica cómo utilizar listas y diccionarios,
+los cuales pueden emplearse para almacenar
+y consultar información de dispositivos de red.
+
+### Documentación oficial de GNS3
+
+https://docs.gns3.com/
+
+Contiene guías para crear topologías,
+configurar dispositivos y solucionar
+problemas en redes simuladas.
+
+### Repositorio de Netmiko
+
+https://github.com/ktbyers/netmiko
+
+Ofrece información y ejemplos sobre
+la automatización de dispositivos de red
+mediante Python.
+
+### Solución de problemas de GNS3
+
+https://docs.gns3.com/docs/troubleshooting-faq/troubleshoot-gns3
+
+Permite investigar errores relacionados
+con la instalación, configuración y
+funcionamiento de GNS3.
+
+### Stack Overflow en español
+
+https://es.stackoverflow.com/
+
+Comunidad donde los desarrolladores pueden
+consultar preguntas y respuestas sobre
+errores de programación.
+
+### GitHub
+
+https://github.com/
+
+Plataforma que permite almacenar código,
+documentar proyectos y colaborar con
+otros desarrolladores.
+
+### Comunidad de GNS3
+
+https://community.gns3.com/
+
+Espacio para consultar dudas y soluciones
+relacionadas con GNS3 y la simulación de redes.
+
+## 4. Evaluación de confiabilidad de los recursos
 
 | Criterio | Documentación de Python | Documentación de GNS3 | Repositorio de Netmiko |
 |---|---|---|---|
@@ -11,43 +100,7 @@
 | ¿Es posible comprobar la información con otra fuente? | Sí, mediante ejemplos prácticos y otras referencias técnicas. | Sí, realizando pruebas en GNS3 y consultando otras guías. | Sí, consultando su documentación y probando ejemplos compatibles. |
 | ¿Qué utilidad tiene para el proyecto integrador? | Ayuda a desarrollar y corregir programas en Python. | Permite construir y solucionar problemas de la topología de red. | Facilita investigar cómo automatizar tareas de administración de dispositivos. |
 
-### 2. Preguntas de análisis
-
-1. ¿Cuál de los recursos consideras más útil para resolver dudas de Python? ¿Por qué?
-
-La documentación oficial de Python, porque contiene información confiable sobre el lenguaje, ejemplos de código y explicaciones que ayudan a resolver errores durante la programación.
-
-2. ¿Cuál consultarías para resolver un problema relacionado con GNS3?
-
-Consultaría la documentación oficial de GNS3, ya que ofrece guías para configurar dispositivos, crear topologías y solucionar problemas relacionados con el funcionamiento de la red simulada.
-
-3. ¿Por qué no conviene copiar directamente una solución sin comprobar que funciona en el entorno de trabajo?
-
-Porque una solución puede estar diseñada para otra versión del programa, sistema operativo o configuración. Es importante comprobar que funciona correctamente para evitar errores y problemas en el proyecto.
-
-### 3. Fuentes consultadas
-
-1. **Documentación oficial de Python**
-   https://docs.python.org/es/3/
-   - Información sobre sintaxis, funciones y estructuras de datos.
-
-2. **Documentación oficial de GNS3**
-   https://docs.gns3.com/
-   - Guías sobre configuración, simulación y solución de problemas de redes.
-
-3. **Repositorio de Netmiko**
-   https://github.com/ktbyers/netmiko
-   - Biblioteca de Python para automatizar la administración de dispositivos de red.
-
-### 3.Analisis de un problema técnico hipotético
-
-1. Situacion del problema
-
-El programa dispositivos.py, desarrollado en la Práctica 3, muestra correctamente la información de R1 y R2, pero al intentar buscar un dispositivo por su nombre, el programa no identifica el equipo solicitado.
-
-2. Tabla de estrategia
-
-## Estrategia de solución de un problema técnico
+## 5. Estrategia de solución de un problema técnico
 
 | Elemento | Respuesta del equipo |
 |---|---|
@@ -59,20 +112,33 @@ El programa dispositivos.py, desarrollado en la Práctica 3, muestra correctamen
 | Cómo comprobarían que la solución funciona | Realizando búsquedas de R1 y R2, probando nombres con mayúsculas y minúsculas, y verificando que el programa muestre la información correcta. |
 | Cómo documentarían la solución encontrada | Registrando el problema, las causas identificadas, los recursos consultados, la solución propuesta y los resultados de las pruebas en GitHub. |
 
-3. Ejemplo de una posible solución
+## 6. Aprendizajes obtenidos
 
-dispositivos = [
-    {"nombre": "R1", "ip": "192.168.1.1"},
-    {"nombre": "R2", "ip": "192.168.1.2"}
-]
+Durante esta práctica aprendimos a identificar
+fuentes confiables de información técnica y
+a utilizar la documentación oficial para
+resolver dudas relacionadas con Python y GNS3.
 
-nombre_buscar = input("Ingrese el nombre del dispositivo: ")
+También conocimos comunidades de colaboración
+que permiten encontrar soluciones a diferentes
+problemas de programación y redes.
 
-for dispositivo in dispositivos:
-    if dispositivo["nombre"].lower() == nombre_buscar.lower():
-        print("Dispositivo encontrado:", dispositivo)
-        break
-else:
-    print("Dispositivo no encontrado")
+Comprendimos la importancia de verificar
+la información antes de utilizarla y de
+documentar los conocimientos adquiridos
+en GitHub para facilitar el trabajo en equipo.
 
-El programa recorre los dispositivos y compara sus nombres utilizando lower(), que convierte el texto a minúsculas. Esto permite encontrar un dispositivo aunque el usuario escriba r1, R1 o R2. Las direcciones IP son ilustrativas.
+### 7. Conclusiones
+## Conclusiones individuales
+
+## Diego Gael Guzman Flores
+Durante esta práctica aprendí la importancia de consultar fuentes confiables al desarrollar un proyecto de programación. Comprendí que la documentación oficial ofrece información más precisa sobre el funcionamiento de las herramientas, mientras que las comunidades permiten conocer experiencias y soluciones de otros usuarios. También aprendí que es importante revisar si la información está actualizada antes de utilizarla. Stack Overflow puede ser de gran ayuda cuando aparecen errores en Python. Además, documentar las soluciones en GitHub permite mantener organizada la información y consultarla cuando sea necesario. Considero que estos conocimientos serán útiles para resolver problemas en las siguientes prácticas de automatización de redes.
+
+## Carlos Uribe Herebia
+Esta práctica me permitió conocer diferentes recursos que facilitan el aprendizaje y la solución de problemas técnicos. Aprendí que la documentación oficial es una fuente de referencia para entender cómo funciona un programa, mientras que los foros ofrecen respuestas basadas en situaciones reales. También comprendí que no debemos confiar en cualquier información de Internet sin revisar su origen y comprobar que funcione. Las comunidades de Python y GNS3 pueden ayudarnos a encontrar soluciones cuando tengamos dificultades. Por otra parte, GitHub es una herramienta importante para compartir información y registrar los avances del proyecto. Lo aprendido me ayudará a investigar mejor y trabajar de manera más organizada en futuras actividades.
+
+## Carlos Daniel Guillen Rios
+Al realizar esta práctica comprendí que saber buscar información es tan importante como saber programar. Muchas veces podemos encontrar errores que no sabemos resolver, pero existen recursos como la documentación de Python, GNS3 y Netmiko que pueden orientarnos. También aprendí que las respuestas de una comunidad pueden ser útiles, aunque es necesario comprobar que sean compatibles con nuestras herramientas. Considero importante revisar los ejemplos y las versiones utilizadas antes de aplicar una solución. Además, guardar los resultados de nuestras investigaciones en GitHub facilita que todos los integrantes del equipo puedan consultarlos. En las siguientes prácticas utilizaré estos recursos para resolver dudas y mejorar el desarrollo de nuestros programas.
+
+## Jesus Emilio Villareal
+Con esta práctica aprendí a identificar recursos que pueden ayudarnos durante el desarrollo del proyecto de automatización de redes. Me di cuenta de que la documentación oficial es útil para consultar instrucciones y características de las herramientas, mientras que las comunidades permiten encontrar recomendaciones de personas que han tenido problemas similares. También entendí que una solución encontrada en Internet no siempre funcionará en nuestro proyecto, por lo que debemos verificar su confiabilidad y realizar pruebas. Aprendí que documentar nuestros avances y soluciones en GitHub ayuda a mantener un mejor control del trabajo realizado. Estos conocimientos me servirán para investigar problemas de Python y GNS3 con mayor facilidad y continuar mejorando el proyecto integrador.
