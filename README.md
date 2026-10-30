@@ -268,3 +268,34 @@ Representar información consiste en escribir y almacenar los datos dentro del p
 Podríamos mejorarlo para conectarse a los dispositivos, consultar sus configuraciones, detectar cambios y ejecutar tareas automáticamente sin tener que hacerlo dispositivo por dispositivo.
 10. ¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
 En la Práctica 2 construimos y configuramos nuestra red en GNS3. En esta práctica utilizamos Python para representar sus dispositivos y organizar su información. Esto nos servirá como base para desarrollar programas que permitan automatizar nuestra infraestructura en las siguientes prácticas.
+
+
+## Práctica 05: Mi primer script de automatización
+
+### Descripción
+
+En esta práctica se desarrolló un script en Python para automatizar la configuración de un router Cisco IOSv mediante el protocolo Telnet, utilizando GNS3 y Network Automation Container (NAC).
+
+Se realizaron configuraciones de interfaces Loopback y del protocolo OSPF en el área 0, verificando los resultados mediante comandos de Cisco IOS.
+
+### Actividades realizadas
+
+- Creación de la topología en GNS3.
+- Configuración del NAC y conectividad de red.
+- Habilitación del acceso remoto mediante Telnet.
+- Desarrollo y ejecución del script Python.
+- Configuración de Loopback0 y Loopback1.
+- Configuración de OSPF en el área 0.
+- Verificación de las configuraciones y documentación de evidencias.
+
+### Relación con el proyecto integrador
+
+Esta práctica contribuye al proyecto integrador al implementar la automatización de configuraciones en dispositivos de red mediante Python.
+
+Los conocimientos adquiridos permiten establecer una base para desarrollar herramientas que faciliten la administración y configuración de infraestructura de red.
+
+### Archivos de la práctica
+
+- [Documentación de la Práctica 05](docs/practica-05/README.md)
+- [Script de automatización Telnet](src/automatizacion_telnet.py)
+- [Evidencias de la práctica](docs/practica-05/evidencias/)
